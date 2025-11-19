@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style/index.css">
 </head>
+
 <body>
     <header>
         <h1 id="titel">JS Kartritning</h1>
-        <button id="link1" class="links" href="omMig.html" onmouseenter="enter('link1')" onmouseleave="leave('link1')">Om mig</button>
-        <button id="link2" class="links" href="omMig.html" onmouseenter="enter('link2')" onmouseleave="leave('link2')">Om mig</button>
-        <button id="link3" class="links" href="omMig.html" onmouseenter="enter('link3')" onmouseleave="leave('link3')">Om mig</button>
-        <button id="link4" class="links" href="omMig.html" onmouseenter="enter('link4')" onmouseleave="leave('link4')">Om mig</button>
-        <button id="link5" class="links" href="omMig.html" onmouseenter="enter('link5')" onmouseleave="leave('link5')">Om mig</button>
+        <button id="link1" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"onmouseleave="leave(id)">Om mig</button>
+        <button id="link2" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button>
+        <button id="link3" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button>
+        <button id="link4" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button>
+        <button id="link5" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button>
 
 
     </header>
     <img id="kartbild" src="imgs/Orienteringskort_bygholm_2005_detail.jpg">
-    
-
+    <div id="picHolder">
+        <div class="pics" id="pic1" onmouseenter="enter2(id)" onmouseleave="leave2(id)"><h1>Broddetorp</h1></div>
+        <div class="pics" id="pic2" onmouseenter="enter2(id)" onmouseleave="leave2(id)">Brunnhemsberget</div>
+        <div class="pics" id="pic3" onmouseenter="enter2(id)" onmouseleave="leave2(id)">Dala</div>
+    </div>
+ 
+    <h1>hoiahioudawhioadwhiaowdho</h1>
     <script src="index.js"></script>
 </body>
+
 </html>
