@@ -9,20 +9,22 @@
 </head>
 
 <body>
-    <header>
-        <h1 id="titel">JS Kartritning</h1>
-        <!-- <button id="link1" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"onmouseleave="leave(id)">Om mig</button>
-        <button id="link2" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button>
-        <button id="link3" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button>
-        <button id="link4" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button>
-        <button id="link5" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button> -->
+    <div id="kartbildBakgrund">
+        <header>
+            <h1 id="titel">JS Kartritning</h1>
+            <div style="width: 25%;">
+                <button id="link1" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Om mig</button>
+                <button id="link2" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button>
+                <button id="link3" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button>
+            </div>
 
-
-    </header>
-    <img id="kartbild" src="nyaSverigekartan.jpg">
+        </header>
+        <img id="kartbild" src="framsida.jpg">
+    </div>
 
     <div id="janInfo">
-        <img id="jan" src="jan.jfif">
+        <img id="jan" src="pappabild.jpeg">
         <div>
             <h1>Jan samuelsson</h1>
             <p>Han har inte så mycket hår men är sjukt snygg ändå. Han är känd för att ha världens bästa son och för att
@@ -31,22 +33,29 @@
     </div>
 
     <div class="picHolder">
-        <div class="pics" id="pic1" onmouseenter="enter2(id)" onmouseleave="leave2(id)">
-            <h1>Broddetorp</h1>
+        <div class="picHolders">
+            <img class="imgs" src="skog.jpg">
+            <h1>Skog</h1>
+            <p>här står det info</p>
         </div>
-        <div class="pics" id="pic2" onmouseenter="enter2(id)" onmouseleave="leave2(id)">Brunnhemsberget</div>
-        <div class="pics" id="pic3" onmouseenter="enter2(id)" onmouseleave="leave2(id)">Dala</div>
-
-    </div>
-    <div class="picHolder">
-        <div class="pics" id="pic4" onmouseenter="enter2(id)" onmouseleave="leave2(id)">
-            <h1>Broddetorp</h1>
+        <div class="picHolders">
+            <img class="imgs" src="sprint.jpg">
+            <h1>Sprint</h1>
+            <p>här står det info</p>
         </div>
-        <div class="pics" id="pic5" onmouseenter="enter2(id)" onmouseleave="leave2(id)">Brunnhemsberget</div>
-        <div class="pics" id="pic6" onmouseenter="enter2(id)" onmouseleave="leave2(id)">Dala</div>
-
+        <div class="picHolders">
+            <img class="imgs" src="skolkarta.jpg">
+            <h1>Skolkarta</h1>
+            <p>här står det info</p>
+        </div>
+        <div class="picHolders">
+            <img class="imgs" src="microsprint.jpg">
+            <h1>Microsprint</h1>
+            <p>här står det info</p>
+        </div>
+        
     </div>
-<h1>nfnefesonsoefniofinsenfoiesnoiesfoinefssoefinionfse</h1>
+
     <script src="index.js"></script>
 </body>
 

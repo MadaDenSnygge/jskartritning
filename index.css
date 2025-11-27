@@ -2,62 +2,84 @@ body{
     margin: 0px;
 }
 header{
-    background-color: lightslategray;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
     
 }
+
+#kartbildBakgrund{
+    background: #00f7ff;
+    background: linear-gradient(90deg,rgba(0, 247, 255, 1) 0%, rgba(11, 117, 163, 1) 51%, rgba(83, 111, 237, 1) 100%);
+    clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0);
+        height: 400px;
+}
+
+
 
 #kartbild{
     width: 100%;
     height: 400px;
-    mask-image: linear-gradient(to top, transparent 0%, black 30%);
-    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%);
+    opacity: 30%;
+    position: static;
+    clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0);
+    /* mask-image: linear-gradient(to top, transparent 0%, black 30%);
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%); */
 
 }
-/* .links{
-    background-color: lightslategray;
-    border:lightslategray 5px solid;
-    width: 10%;
+
+.links{
+    background:none;
+    border: none;
+    width: 20%;
     height: auto;
     font-size: large;
     font-weight: bold;
     padding-bottom: 1%;
     padding-top: 1%;
-} */
+    margin-right: 10%;
+}
+
+
 
 #janInfo{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 #janInfo > img  {
     width: 15%;
+    border-radius: 50%;
 }
 
 #janInfo > div {
     width: 30%;
     text-align: center;
-}
-
-.pics{
-    border: black solid 1px;
-    height: 300px;
-    width: 250px;
-    background-image:url("karta2.jpg");
-    text-align: center;
-    padding-top: 20px;
+    box-shadow: 5px 5px 8px 10px #cfcdcd;
+    border-radius: 25px;
 }
 
 .picHolder{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 5%;
+    
+}
+
+.picHolders{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.imgs{
+    border-radius: 50%;
+    width: 250px;
 }
 
