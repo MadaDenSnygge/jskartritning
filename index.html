@@ -12,11 +12,19 @@
     <div id="kartbildBakgrund">
         <header>
             <h1 id="titel">JS Kartritning</h1>
-            <div style="width: 25%;">
-                <button id="link1" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"
-                    onmouseleave="leave(id)">Om mig</button>
-                <button id="link2" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button>
-                <button id="link3" class="links" onmouseenter="enter(id)" onmouseleave="leave(id)">Om mig</button>
+            <div id="linkHolder">
+                <button id="link1" class="links" onclick="switchPage('index.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Hem</button>
+
+                <button id="link2" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Om mig</button>  
+
+                <button id="link3" class="links" onclick="switchPage('kontaktaMig.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Kontakta mig</button>
+
+                <button id="link4" class="links" onclick="switchPage('kartTjänster.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Mina karttjänster</button>
+
             </div>
 
         </header>
@@ -26,9 +34,9 @@
     <div id="janInfo">
         <img id="jan" src="pappabild.jpeg">
         <div>
-            <h1>Jan samuelsson</h1>
-            <p>Han har inte så mycket hår men är sjukt snygg ändå. Han är känd för att ha världens bästa son och för att
-                rita kartor.</p>
+            <p>Jag heter Jan Samuelsson och jag driver ett eget företag som ritar orienteringskartor. Jag hjälper dig gärna med ditt nästa kartprojekt.<br><br>
+                På min hemsida hittar du information om de olika kartorna jag ritar, pris för kartritning och kontaktinformation.
+            </p>
         </div>
     </div>
 
@@ -44,15 +52,16 @@
             <p>här står det info</p>
         </div>
         <div class="picHolders">
-            <img class="imgs" src="skolkarta.jpg">
-            <h1>Skolkarta</h1>
-            <p>här står det info</p>
-        </div>
-        <div class="picHolders">
             <img class="imgs" src="microsprint.jpg">
             <h1>Microsprint</h1>
             <p>här står det info</p>
         </div>
+        <div class="picHolders">
+            <img class="imgs" src="skolkarta.jpg">
+            <h1 >Skolkarta</h1>
+            <p>här står det info</p>
+        </div>
+        
         
     </div>
 

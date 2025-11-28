@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="kartTjänster.css">
+</head>
+
+<body>
+    <div id="kartbildBakgrund">
+        <header>
+            <h1 id="titel">JS Kartritning</h1>
+            <div style="width: 25%;">
+                <button id="link1" class="links" onclick="switchPage('index.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Hem</button>
+
+                <button id="link2" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Om mig</button>  
+
+                <button id="link3" class="links" onclick="switchPage('kontaktaMig.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Kontakta mig</button>
+            </div>
+
+        </header>
+        <img id="kartbild" src="framsida.jpg">
+    </div>
+
+    
+
+    <div class="picHolder">
+        <div class="picHolders">
+            <img class="imgs" src="skog.jpg">
+            <h1>Skog</h1>
+            <p>här står det info</p>
+        </div>
+        <div class="picHolders">
+            <img class="imgs" src="sprint.jpg">
+            <h1>Sprint</h1>
+            <p>här står det info</p>
+        </div>
+        <div class="picHolders">
+            <img class="imgs" src="microsprint.jpg">
+            <h1>Microsprint</h1>
+            <p>här står det info</p>
+        </div>
+        <div class="picHolders">
+            <img class="imgs" src="skolkarta.jpg">
+            <h1 >Skolkarta</h1>
+            <p>här står det info</p>
+        </div>
+        
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

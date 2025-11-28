@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="kontaktaMig.css">
+</head>
+
+<body>
+    <div id="kartbildBakgrund">
+        <header>
+            <h1 id="titel">JS Kartritning</h1>
+            <div style="width: 25%;">
+                <button id="link1" class="links" onclick="switchPage('index.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Hem</button>
+
+                <button id="link2" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Om mig</button>
+
+                <button id="link3" class="links" onclick="switchPage('kontaktaMig.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Kontakta mig</button>
+            </div>
+
+        </header>
+        <img id="kartbild" src="framsida.jpg">
+    </div>
+    <div id="rubbet">
+        <form action="" id="mailForm">
+            <input type="text" name="name" placeholder="För- och efternamn">
+            <input type="text" name="email" placeholder="E-postadress">
+            <textarea type="text" name="message" placeholder="Ditt meddelande" style="height: 200px;"></textarea>
+            <button>Skicka</button>
+
+        </form>
+        <div>
+            <h1>Telefon</h1>
+            <p>
+                Du kan också ringa eller skicka sms så ringer jag upp.<br>
+                Du når mig på 070-234 03 59.
+            </p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

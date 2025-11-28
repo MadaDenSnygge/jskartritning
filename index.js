@@ -1,9 +1,10 @@
-    let titel = document.getElementById("titel")
 function enter(x) {
-    document.getElementById(x).style.borderBottomColor = "red"
+    // document.getElementById(x).style.borderBottomColor = "red"
+    document.getElementById(x).style.cursor = "pointer"
+    
 }
 function leave(x){
-    document.getElementById(x).style.borderBottomColor = "lightslategray"
+    // document.getElementById(x).style.borderBottomColor = "lightslategray"
 }
 
 function switchPage(page){

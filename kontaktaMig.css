@@ -1,0 +1,21 @@
+#mailForm{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 1%;
+    box-shadow: 5px 5px 4px 5px #cfcdcd;
+    border-radius: 25px;
+    background-color: rgb(243, 243, 243);
+}
+#mailForm > *{
+    margin-top:2%;
+}
+
+#rubbet{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+#rubbet > *{
+    margin-left: 7.5%;
+}
