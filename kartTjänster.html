@@ -13,46 +13,76 @@
     <div id="kartbildBakgrund">
         <header>
             <h1 id="titel">JS Kartritning</h1>
-            <div style="width: 25%;">
+            <div id="linkHolder">
                 <button id="link1" class="links" onclick="switchPage('index.html')" onmouseenter="enter(id)"
                     onmouseleave="leave(id)">Hem</button>
 
                 <button id="link2" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"
-                    onmouseleave="leave(id)">Om mig</button>  
+                    onmouseleave="leave(id)">Om mig</button>
 
                 <button id="link3" class="links" onclick="switchPage('kontaktaMig.html')" onmouseenter="enter(id)"
                     onmouseleave="leave(id)">Kontakta mig</button>
+
+                <button id="link4" class="links" onclick="switchPage('kartTjänster.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Mina karttjänster</button>
+
             </div>
 
         </header>
+
+        <div class="titel">
+            <h1>Mina Karttjänster</h1>
+            <p>Jag ritar enligt gällande aktuell svensk kartnorm. Jag använder mig av
+                OCAD och i fält använder jag GPS för positionering av detaljer
+            </p>
+
+        </div>
         <img id="kartbild" src="framsida.jpg">
     </div>
 
-    
+
 
     <div class="picHolder">
         <div class="picHolders">
             <img class="imgs" src="skog.jpg">
             <h1>Skog</h1>
-            <p>här står det info</p>
+            <p>Karta för orientering i skog. Ritas i skala 1:15000</p>
         </div>
         <div class="picHolders">
             <img class="imgs" src="sprint.jpg">
             <h1>Sprint</h1>
-            <p>här står det info</p>
+            <p>Sprintkarta för orientering i bebyggelse. Ritas i skala 1:4000</p>
         </div>
         <div class="picHolders">
             <img class="imgs" src="microsprint.jpg">
             <h1>Microsprint</h1>
-            <p>här står det info</p>
+            <p>Karta för orientering med microsprint. Ritas ej enligt kartnorm utan efter kundens önskemål.</p>
         </div>
         <div class="picHolders">
             <img class="imgs" src="skolkarta.jpg">
-            <h1 >Skolkarta</h1>
-            <p>här står det info</p>
+            <h1>Skolkarta</h1>
+            <p>Speciellt ritad karta för grundskolan.
+                Ritas ej enligt kartnorm utan efter kundens önskemål.
+            </p>
         </div>
-        
-        
+        <div id="textRuta" class="picHolders">
+            <h1>Min prislista</h1>
+            <p>Tidsåtgången vid nyritning (rekognosering och renritning) varierar förstås beroende på vilken sorts karta
+                som jag ska rita och på terrängens komplexitet, kupering, täthet och mängden detaljer som ska läggas in
+                på kartan.<br><br>
+
+                Med lasermaterial som grundmaterial kan det variera i storleksordningen 30-100 timmar/km2. Där flacka
+                tallhedar kan ta under 30h/km2 medan kuperade och detaljrika områden med aktivt skogsbruk kan ta
+                100h/km2.<br>
+                Mitt normalvärdet är 40-60 timmar/km2.<br><br>
+
+                Med timtaxan på 400 kr per kvadratkilometer blir priset mellan 16 00 kr - 24000 kr per kvadratkilometer
+                plus moms och ev. resekostnader.<br><br>
+
+                Jag följer SOFTs avtalsmall vid avtal om kartritninguppdrag</p>
+        </div>
+
+
     </div>
 
     <script src="index.js"></script>

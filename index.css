@@ -6,17 +6,35 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    position: absolute;
     z-index: 5;
     width: 100%;
-    
+    position: fixed;
+    margin-right: 0;
 }
 
-h1{
+h1, h2{
     color: rgb(18, 18, 121);
 }
+
+.titel{
+    position: fixed;
+    margin-top: 5%;
+    text-align: center;
+    z-index: 5;
+    width: 100%;
+}
+.titel > h1{
+    font-size: 300%;
+    color: white;
+}
+.titel>h2{
+    font-size: 200%;
+}
+.titel > p{
+    font-size: 110%;
+}
+
 
 #kartbildBakgrund{
     background: #00f7ff;
@@ -38,19 +56,14 @@ h1{
 
 }
 
-#linkHolder{
-    display: flex;
-    flex-direction: row;
-    width: 40%;
-}
+
 
 .links{
-    background:none;
     border: none;
-    height: auto;
-    font-size: large;
+    background: none;
+    font-size: larger;
     font-weight: bold;
-    margin-right: 3%;
+    margin-top:2%;
 }
 
 
@@ -75,26 +88,5 @@ h1{
     padding: 15px;
 }
 
-.picHolder{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
 
-.picHolders{
-    display: flex;
-    flex-direction: column;
-    box-shadow: 5px 5px 4px 5px #cfcdcd;
-    border-radius: 25px;
-    padding: 30px;
-}
-
-.picHolders > h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.imgs{
-    border-radius: 50%;
-    width: 250px;
-}
 
