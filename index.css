@@ -17,6 +17,10 @@ h1, h2{
     color: rgb(18, 18, 121);
 }
 
+#logga{
+    width: 10%;
+}
+
 .titel{
     position: fixed;
     margin-top: 5%;
