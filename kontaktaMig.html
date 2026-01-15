@@ -40,11 +40,11 @@
         <img id="kartbild" src="imgs/framsida.jpg">
     </div>
     <div id="rubbet">
-        <form action="" id="mailForm">
-            <input type="text" name="name" placeholder="För- och efternamn">
-            <input type="text" name="email" placeholder="E-postadress">
-            <textarea type="text" name="message" placeholder="Ditt meddelande" style="height: 200px;"></textarea>
-            <button>Skicka</button>
+        <form action="test.php" id="mailForm" method="post">
+            <input type="text" name="name" id="name"placeholder="För- och efternamn" required>
+            <input type="text" name="email" id="email" placeholder="E-postadress" required>
+            <textarea type="text" name="message" id="message" placeholder="Ditt meddelande" style="height: 200px;" required></textarea>
+            <button type="submit">Skicka</button>
 
         </form>
         <div>
