@@ -19,6 +19,7 @@ h1, h2{
 
 #logga{
     width: 10%;
+    margin-top: 2%;
 }
 
 .titel{
@@ -29,20 +30,25 @@ h1, h2{
     width: 100%;
 }
 .titel > h1{
-    font-size: 300%;
+    font-size: 400%;
     color: white;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 .titel>h2{
-    font-size: 200%;
+    font-size: 250%;
+    margin-top: 0;
+    color: white;
 }
 .titel > p{
-    font-size: 110%;
+    font-size: 200%;
+    color: white;
 }
 
 
 #kartbildBakgrund{
-    background: #00f7ff;
-    background: linear-gradient(90deg,rgba(0, 247, 255, 1) 0%, rgba(11, 117, 163, 1) 51%, rgba(83, 111, 237, 1) 100%);
+    background: #212cff;
+background: linear-gradient(90deg,rgba(33, 44, 255, 1) 0%, rgba(90, 138, 250, 1) 100%);
     clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0);
         height: 400px;
 }
@@ -65,7 +71,7 @@ h1, h2{
 .links{
     border: none;
     background: none;
-    font-size: larger;
+    font-size: medium;
     font-weight: bold;
     margin-top:2%;
 }
@@ -78,16 +84,18 @@ h1, h2{
     justify-content: space-evenly;
     padding-top: 3%;
     padding-bottom: 3%;
+    font-size: 100%;
 }
 
 #janInfo > img  {
-    width: 15%;
+    width: 20%;
     border-radius: 50%;
 }
 
 #janInfo > div {
     width: 30%;
-    box-shadow: 5px 5px 8px 10px #cfcdcd;
+    height: fit-content;
+    box-shadow: 5px 5px 4px 5px #cfcdcd;
     border-radius: 25px;
     padding: 15px;
 }

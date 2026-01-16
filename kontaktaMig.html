@@ -40,18 +40,22 @@
         <img id="kartbild" src="imgs/framsida.jpg">
     </div>
     <div id="rubbet">
-        <form action="contact-handler.php" id="mailForm" method="post">
+        <form action="https://formspree.io/f/mkoogqbj" method="POST" id="mailForm">
             <input type="text" name="name" id="name"placeholder="För- och efternamn" required>
-            <input type="text" name="email" id="email" placeholder="E-postadress" required>
+            <input type="email" name="email" id="email" placeholder="E-postadress" required>
             <textarea type="text" name="message" id="message" placeholder="Ditt meddelande" style="height: 200px;" required></textarea>
-            <button type="submit">Skicka</button>
 
+            <input type="hidden" name="_subject" value="Nytt meddelande från hemsidan">
+            <input type="hidden" name="_redirect" value="https://madadensnygge.github.io/jskartritning/thanks.html">
+
+            <button type="submit" >Skicka</button>
         </form>
         <div>
             <h1>Telefon</h1>
             <p>
                 Du kan också ringa eller skicka sms så ringer jag upp.<br>
-                Du når mig på 070-234 03 59.
+                Du når mig på 070-234 03 59.<br><br>
+                För att skicka email kan du använda fönstret till vänster.
             </p>
         </div>
     </div>
