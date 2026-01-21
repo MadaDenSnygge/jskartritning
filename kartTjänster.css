@@ -7,7 +7,7 @@
 .picHolders{
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 5px 4px 5px #cfcdcd;
+    box-shadow: 5px 5px 4px 5px #ecebeb;
     border-radius: 25px;
     padding: 30px;
     width: 12%;
@@ -22,4 +22,17 @@
 
 #textRuta{
     width: 20%;
+}
+
+@media (max-width: 600px) {
+    .picHolder{
+        flex-direction: column;
+        align-items: center;
+    }
+    .picHolders{
+        width: 80%;
+    }
+    #textRuta{
+        width: 80%;
+    }
 }

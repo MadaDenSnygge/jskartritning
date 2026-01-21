@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 30%;
     padding: 1%;
-    box-shadow: 5px 5px 4px 5px #cfcdcd;
+    box-shadow: 5px 5px 4px 5px #ecebeb;
     border-radius: 25px;
     background-color: rgb(243, 243, 243);
 }
@@ -40,4 +40,12 @@
 }
 #rubbet > *{
     margin-left: 7.5%;
+}
+@media (max-width: 600px) {
+    #rubbet{
+        flex-direction: column;
+    }
+    #mailForm{
+        width: 80%;
+    }
 }

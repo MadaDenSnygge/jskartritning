@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hem</title>
+    <link rel="icon" href="imgs/Vit logga.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
@@ -17,19 +18,33 @@
                     onmouseleave="leave(id)">Hem</button>
 
                 <button id="link2" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"
-                    onmouseleave="leave(id)">Om mig</button>  
+                    onmouseleave="leave(id)">Om mig</button>
 
                 <button id="link3" class="links" onclick="switchPage('kontaktaMig.html')" onmouseenter="enter(id)"
                     onmouseleave="leave(id)">Kontakta mig</button>
 
                 <button id="link4" class="links" onclick="switchPage('kartTjänster.html')" onmouseenter="enter(id)"
                     onmouseleave="leave(id)">Mina karttjänster</button>
+            </div>
+            <button id="linkHolderButton" onclick="show()"><img src="imgs/lines.png"></button>
+            <div id="dropdownMenu">
+                <button id="link1" class="links" onclick="switchPage('index.html')"
+                    onmouseenter="enter(id)" onmouseleave="leave(id)">Hem</button>
 
+                <button id="link2" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Om mig</button>
+
+                <button id="link3" class="links" onclick="switchPage('kontaktaMig.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Kontakta mig</button>
+
+                <button id="link4" class="links" onclick="switchPage('kartTjänster.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Mina karttjänster</button>
+                <button class="links" onclick="show()" style="font-size: 25px;">&#129081</button>
             </div>
         </header>
         <div class="titel">
-                <h1>Välkommen till</h1>
-                <p>JS kartritning</p>
+            <h1>Välkommen till</h1>
+            <p>JS kartritning</p>
         </div>
         <img id="kartbild" src="imgs/framsida.jpg">
     </div>
@@ -37,13 +52,14 @@
     <div id="janInfo">
         <img id="jan" src="imgs/pappabild.jpeg">
         <div>
-            <p>Jag heter Jan Samuelsson och jag driver ett eget företag som ritar orienteringskartor. Jag hjälper dig gärna med ditt nästa kartprojekt.<br><br>
-                På min hemsida hittar du information om de olika kartorna jag ritar, pris för kartritning och kontaktinformation.
+            <p>Jag heter Jan Samuelsson och jag driver ett eget företag som ritar orienteringskartor. Jag hjälper dig
+                gärna med ditt nästa kartprojekt.<br><br>
+                På min hemsida hittar du information om de olika kartorna jag ritar, pris för kartritning och
+                kontaktinformation.
             </p>
         </div>
     </div>
 
-    
 
     <script src="index.js"></script>
 </body>

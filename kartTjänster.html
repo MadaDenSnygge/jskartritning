@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Karttjänster</title>
+    <link rel="icon" href="imgs/Vit logga.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="kartTjänster.css">
 </head>
@@ -25,9 +26,22 @@
 
                 <button id="link4" class="links" onclick="switchPage('kartTjänster.html')" onmouseenter="enter(id)"
                     onmouseleave="leave(id)">Mina karttjänster</button>
-
             </div>
+            <button id="linkHolderButton" onclick="show()"><img src="imgs/lines.png"></button>
+            <div id="dropdownMenu">
+                <button id="link1" class="links" onclick="switchPage('index.html')"
+                    onmouseenter="enter(id)" onmouseleave="leave(id)">Hem</button>
 
+                <button id="link2" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Om mig</button>
+
+                <button id="link3" class="links" onclick="switchPage('kontaktaMig.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Kontakta mig</button>
+
+                <button id="link4" class="links" onclick="switchPage('kartTjänster.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Mina karttjänster</button>
+                <button class="links" onclick="show()" style="font-size: 25px;">&#129081</button>
+            </div>
         </header>
 
         <div class="titel">
