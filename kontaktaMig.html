@@ -18,28 +18,23 @@
                 <button id="link1" class="links" onclick="switchPage('index.html')" onmouseenter="enter(id)"
                     onmouseleave="leave(id)">Hem</button>
 
-                <!-- <button id="link2" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"
-                    onmouseleave="leave(id)">Om mig</button> -->
+                <button id="link4" class="links" onclick="switchPage('kartTjänster.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Mina karttjänster</button>
 
                 <button id="link3" class="links" onclick="switchPage('kontaktaMig.html')" onmouseenter="enter(id)"
                     onmouseleave="leave(id)">Kontakta mig</button>
-
-                <button id="link4" class="links" onclick="switchPage('kartTjänster.html')" onmouseenter="enter(id)"
-                    onmouseleave="leave(id)">Mina karttjänster</button>
             </div>
             <button id="linkHolderButton" onclick="show()"><img src="imgs/lines.png"></button>
             <div id="dropdownMenu">
-                <button id="link1" class="links" onclick="switchPage('index.html')"
-                    onmouseenter="enter(id)" onmouseleave="leave(id)">Hem</button>
+                <button id="link1" class="links" onclick="switchPage('index.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Hem</button>
 
-                <!-- <button id="link2" class="links" onclick="switchPage('omMig.html')" onmouseenter="enter(id)"
-                    onmouseleave="leave(id)">Om mig</button> -->
+                <button id="link4" class="links" onclick="switchPage('kartTjänster.html')" onmouseenter="enter(id)"
+                    onmouseleave="leave(id)">Mina karttjänster</button>
 
                 <button id="link3" class="links" onclick="switchPage('kontaktaMig.html')" onmouseenter="enter(id)"
                     onmouseleave="leave(id)">Kontakta mig</button>
 
-                <button id="link4" class="links" onclick="switchPage('kartTjänster.html')" onmouseenter="enter(id)"
-                    onmouseleave="leave(id)">Mina karttjänster</button>
                 <button class="links" onclick="show()" style="font-size: 25px;">&#129081</button>
             </div>
         </header>
@@ -55,22 +50,21 @@
         <img id="kartbild" src="imgs/framsida.jpg">
     </div>
     <div id="rubbet">
-        <form action="https://formspree.io/f/mkoogqbj" method="POST" id="mailForm">
-            <input type="text" name="name" id="name"placeholder="För- och efternamn" required>
-            <input type="email" name="email" id="email" placeholder="E-postadress" required>
-            <textarea type="text" name="message" id="message" placeholder="Ditt meddelande" style="height: 200px;" required></textarea>
+        <div id="mailDiv">
+            <h1>Mail</h1>
+            <form action="https://formspree.io/f/mkoogqbj" method="POST" id="mailForm">
+                <input type="text" name="name" id="name" placeholder="För- och efternamn" required>
+                <input type="email" name="email" id="email" placeholder="E-postadress" required>
+                <textarea type="text" name="message" id="message" placeholder="Ditt meddelande" 
+                    required></textarea>
 
-            <input type="hidden" name="_subject" value="Nytt meddelande från hemsidan">
-            <input type="hidden" name="_redirect" value="https://madadensnygge.github.io/jskartritning/thanks.html">
-
-            <button type="submit" >Skicka</button>
-        </form>
+                <button type="submit">Skicka</button>
+            </form>
+        </div>
         <div>
             <h1>Telefon</h1>
             <p>
-                Du kan också ringa eller skicka sms så ringer jag upp.<br>
-                Du når mig på 070-234 03 59.<br><br>
-                För att skicka email kan du använda fönstret till vänster.
+                Du kan ringa eller skicka sms på 070-234 03 59
             </p>
         </div>
     </div>

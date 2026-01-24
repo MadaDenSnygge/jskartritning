@@ -20,6 +20,7 @@ h1, h2{
 #logga{
     width: 10%;
     margin-top: 2%;
+    margin-left: 2%;
 }
 
 .titel{
@@ -61,7 +62,7 @@ background: linear-gradient(90deg,rgba(33, 44, 255, 1) 0%, rgba(90, 138, 250, 1)
     clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0);
     /* mask-image: linear-gradient(to top, transparent 0%, black 30%);
     -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%); */
-
+    position: fixed;
 }
 
 
@@ -72,6 +73,7 @@ background: linear-gradient(90deg,rgba(33, 44, 255, 1) 0%, rgba(90, 138, 250, 1)
     font-size: medium;
     font-weight: bold;
     margin-top:2%;
+    color: white;
 }
 
 
