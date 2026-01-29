@@ -59,7 +59,7 @@
     #rubbet{
         flex-direction: column;
     }
-    #mailForm{
+    #mailDiv{
         width: 80%;
     }
 }
