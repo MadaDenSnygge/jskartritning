@@ -1,3 +1,8 @@
+window.onload = (event) => {
+    if(window.innerWidth < 600){
+        screen.orientation.lock('portrait')
+    }
+};
 function enter(x) {
     // document.getElementById(x).style.borderBottomColor = "red"
     document.getElementById(x).style.cursor = "pointer"
@@ -17,17 +22,31 @@ function enter2(x){
 function leave2(x){
 document.getElementById(x).style.scale = "1"}
 
-value = 1
+// value = 0
 
-function show(){
-    if(value == 1){
+// function show(add){
+//     value += add
+//     console.log(value)
+//     if(value > 1){
+//         document.getElementById("linkHolderButton").style.visibility = "hidden";
+//         document.getElementById("dropdownMenu").style.visibility = "visible";
+//     }
+//     else{
+//         document.getElementById("linkHolderButton").style.visibility = "visible"
+//         document.getElementById("dropdownMenu").style.visibility = "hidden";
+//     }
+//     if(value < 1){
+//         value = 0;
+//     }
+// }
+
+window.onclick = function (event) {
+    if(event.target.matches("#linkImg")){
         document.getElementById("linkHolderButton").style.visibility = "hidden";
         document.getElementById("dropdownMenu").style.visibility = "visible";
-        value = 2
     }
-    else if(value == 2){
+    else if(window.innerWidth < 600){
         document.getElementById("linkHolderButton").style.visibility = "visible"
         document.getElementById("dropdownMenu").style.visibility = "hidden";
-        value = 1
     }
 }
