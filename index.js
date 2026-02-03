@@ -1,12 +1,6 @@
-window.onload = (event) => {
-    if(window.innerWidth < 600){
-        screen.orientation.lock('portrait')
-    }
-};
 function enter(x) {
     // document.getElementById(x).style.borderBottomColor = "red"
     document.getElementById(x).style.cursor = "pointer"
-    
 }
 function leave(x){
     // document.getElementById(x).style.borderBottomColor = "lightslategray"
