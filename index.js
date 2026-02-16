@@ -22,8 +22,8 @@ window.onclick = function (event) {
 }
 
 window.onload = function(){
-    console.log(document.getElementById("jan").style.height)
-    console.log(document.getElementById("jan").style.width)
+    console.log(document.getElementById("jan").offsetHeight)
+    console.log(document.getElementById("jan").offsetWidth)
+    document.getElementById("jan").style.height = document.getElementById("jan").offsetWidth + "px"
 
-    document.getElementById("jan").style.height = document.getElementById("jan").style.width
 }
